@@ -1,0 +1,120 @@
+header{
+   border-bottom: 0.5px solid rgba(0, 0, 0, 0.349);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 50px;
+   background-color: rgba(255, 255, 255, 0.075);
+   backdrop-filter: blur(10px);
+   position: sticky;
+   top: 0;
+   
+}
+.nav-elements{
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 50px;
+   font-size: 18px;
+   
+}
+.btn{
+  font-family: "JetBrains Mono", monospace;
+  border: none;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+}
+.btn:hover{
+  color: rgb(0, 202, 0);
+  box-shadow:0 0 100px 10px rgba(0, 255, 0, 0.541);
+  transition: all 0.1s ease;
+  cursor:pointer;
+
+}
+
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  gap: 20px;
+}
+i{
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 5px;
+  /* margin: 10px 10px; */
+  padding: 10px;
+  font-size: 22px;
+}
+i:hover{
+  cursor: pointer;
+  border: 1px solid rgb(27, 112, 2);
+  color: #00d800;
+}
+
+
+
+
+/* footer */
+footer{
+  background-color: black;
+  color:white;
+  padding: 20px 30px;
+}
+footer i{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+footer p{
+  padding: 20px 30px;
+}
+
+
+/* ----------------------------------------------- */
+
+/*! ----------Responsive Design---------- */
+
+@media (max-width: 480px) {
+    header {
+        /* width: 96vw; */
+        gap: 20px;
+    }
+     .nav-elements{
+        display: none;
+     }
+     header .btn{
+         font-size: 15px;
+         /* padding: 10px 15px; */
+     }
+     
+
+    i{
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    padding: 6px;
+    font-size: 25px;
+    }
+    i:hover{
+    cursor: pointer;
+    border: 1px solid rgb(27, 112, 2);
+    color: #00d800;
+    }
+
+
+
+
+     /* footer */
+    footer{
+    /* font-size: 12px; */
+    }
+    /* footer i{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    footer p{
+    padding: 20px 30px;
+    } */
+
+
+}
