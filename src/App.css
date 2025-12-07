@@ -81,13 +81,15 @@ footer p{
     header {
         /* width: 96vw; */
         gap: 20px;
+        background-color: red;
+        width: 100%;
+
     }
      .nav-elements{
         display: none;
      }
      header .btn{
-         font-size: 15px;
-         /* padding: 10px 15px; */
+      display: none;
      }
      
 
@@ -107,6 +109,7 @@ footer p{
 
      /* footer */
     footer{
+      width: 100vw;
     /* font-size: 12px; */
     }
     /* footer i{
