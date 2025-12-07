@@ -8,6 +8,7 @@ header{
    backdrop-filter: blur(10px);
    position: sticky;
    top: 0;
+   border-bottom: 1px solid black;
    
 }
 .nav-elements{
@@ -81,7 +82,7 @@ footer p{
     header {
         /* width: 96vw; */
         gap: 20px;
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
 
     }
