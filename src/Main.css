@@ -42,59 +42,6 @@ header{
 
 
 
-
-.icons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 10px;
-  gap: 20px;
-}
-i{
-  border: 1px solid rgba(0, 0, 0, 0.233);
-  border-radius: 5px;
-  /* margin: 10px 10px; */
-  padding: 10px;
-  font-size: 22px;
-}
-i:hover{
-  cursor: pointer;
-  border: 1px solid rgb(27, 112, 2);
-  color: #00d800;
-}
-
-
-
-/** Section */
-.section{
-  border: 2px solid blue;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 150px;
-  gap: 20px;
-}
-.section h1{
-  font-size: 70px;
-  text-align: center;
-  text-transform:uppercase;
-}
-.section p{
-  font-size: 15px;
-  font-weight: 200;
-  color: rgb(73, 73, 73);
-  margin-top: 10px;
-  line-height: 30px;
-  
-}
-.section span{
-  color: rgb(0, 201, 0);
-  background-color: black;
-  font-weight: 600;
-  padding: 5px 10px;
-} 
 .btn1{
   font-family: "JetBrains Mono", monospace;
   border: 1px solid green;
@@ -174,11 +121,35 @@ i:hover{
   font-size: 20px;
 }
 
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  gap: 20px;
+}
+i{
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 5px;
+  /* margin: 10px 10px; */
+  padding: 10px;
+  font-size: 22px;
+}
+i:hover{
+  cursor: pointer;
+  border: 1px solid rgb(27, 112, 2);
+  color: #00d800;
+}
+
+
 /* footer */
 footer{
   background-color: black;
   color:white;
   padding: 20px 30px;
+  
+  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.275) 0.5px, transparent 1px), linear-gradient(to bottom, rgba(128, 128, 128, 0.275) 0.5px, transparent 1px);
+  background-size: 20px 20px;
 }
 footer i{
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -188,9 +159,7 @@ footer p{
 }
 
 
-/* ----------------------------------------------- */
 
-/*! ----------Responsive Design---------- */
 
 @media (max-width: 480px) {
     header {
