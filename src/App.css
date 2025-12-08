@@ -36,6 +36,7 @@ header{
 }
 
 
+
 .icons{
   display: flex;
   align-items: center;
@@ -58,6 +59,96 @@ i:hover{
 
 
 
+/** Section */
+section{
+  border: 2px solid blue;
+  width: 100vw;
+}
+.section h1{
+  font-size: 70px;
+  text-transform:uppercase;
+}
+.section p{
+  font-size: 15px;
+  font-weight: 200;
+  color: rgb(73, 73, 73);
+  margin-top: 10px;
+  line-height: 30px;
+  
+}
+.section span{
+  color: rgb(0, 201, 0);
+  background-color: black;
+  font-weight: 600;
+  padding: 5px 10px;
+} 
+.btn1{
+  font-family: "JetBrains Mono", monospace;
+  border: 1px solid green;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding-left: 20px;
+  
+}
+.btn:hover{
+  color: rgb(0, 202, 0);
+  box-shadow:0 0 100px 10px rgba(0, 255, 0, 0.178);
+  transition: all 0.1s ease;
+  cursor:pointer;
+}
+.btn1:hover{
+  color: rgb(0, 202, 0);
+  background-color: rgb(46, 46, 46);
+  /* box-shadow:0 0 100px 10px rgba(0, 255, 0, 0.178); */
+  transition: all 0.1s ease;
+  cursor:pointer;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.contact-btn{
+
+  background-color: black;
+  color: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding-left: 20px;
+}
+.contact-btn i{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  gap: 20px;
+}
+i{
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 5px;
+  /* margin: 10px 10px; */
+  padding: 10px;
+  font-size: 22px;
+}
+i:hover{
+  cursor: pointer;
+  border: 1px solid rgb(27, 112, 2);
+  color: #00d800;
+}
 
 /* footer */
 footer{
@@ -81,7 +172,7 @@ footer p{
     header {
         /* width: 96vw; */
         gap: 20px;
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
 
     }
@@ -104,6 +195,88 @@ footer p{
     color: #00d800;
     }
 
+    .section h1{
+    font-size: 50px;
+    text-transform:uppercase;
+    text-align: center;
+  }
+
+.section p{
+  font-size: 15px;
+  font-weight: 200;
+  color: rgb(73, 73, 73);
+  margin-top: 10px;
+  line-height: 20px;
+  
+}
+.section span{
+  color: rgb(0, 201, 0);
+  background-color: black;
+  font-weight: 600;
+  padding: 5px 10px;
+} 
+
+.btn1{
+  font-family: "JetBrains Mono", monospace;
+  border: 1px solid green;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding-left: 20px;
+  
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid red;
+  gap: 20px;
+}
+.btn1{
+  width: 300px;
+}
+.contact-btn{
+
+  background-color: black;
+  color: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding-left: 20px;
+}
+.contact-btn i{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  gap: 20px;
+}
+i{
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 5px;
+  /* margin: 10px 10px; */
+  padding: 10px;
+  font-size: 22px;
+}
+i:hover{
+  cursor: pointer;
+  border: 1px solid rgb(27, 112, 2);
+  color: #00d800;
+}
+
 
 
 
@@ -112,12 +285,8 @@ footer p{
       width: 100vw;
     /* font-size: 12px; */
     }
-    /* footer i{
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    }
-    footer p{
-    padding: 20px 30px;
-    } */
+
+
 
 
 }
