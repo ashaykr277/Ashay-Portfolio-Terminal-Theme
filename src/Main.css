@@ -88,7 +88,7 @@ header{
 
 
 
-/* Section */
+/*! Section */
 .section {
   height: 100vh;
   width: 100vw;
@@ -100,7 +100,6 @@ header{
   /* align-items: center; */
   justify-content: center;
   border: 2px solid red;
-
 }
 .section .skills{
   display: flex;
@@ -124,6 +123,7 @@ header{
   align-items: center;
   flex-direction: column;
   gap: 20px;
+
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.050) 0.5px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.050) 1px, transparent 1px);
   background-size: 20px 20px;
 }
@@ -257,24 +257,25 @@ footer p{
     text-transform:uppercase;
     text-align: center;
   }
-  .section{
+  .section .info{
+    width:100px;
 
   }
 
-.section p{
-  font-size: 15px;
-  font-weight: 200;
-  color: rgb(73, 73, 73);
-  margin-top: 10px;
-  line-height: 20px;
-  
+  .section .info {
+    /* margin-top: 200px; */
+  height: 50vh;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.377);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.050) 0.5px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.050) 1px, transparent 1px);
+  background-size: 20px 20px;
 }
-.section span{
-  color: rgb(0, 201, 0);
-  background-color: black;
-  font-weight: 600;
-  padding: 5px 10px;
-} 
 
 .btn1{
   font-family: "JetBrains Mono", monospace;
