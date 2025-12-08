@@ -7,7 +7,6 @@ const Section = () => {
         <div className="section">
           <div className="info">
             <h1>Ashay_Kumar</h1>
-            <p>&gt;_ Java Spring boot Developer</p>
             <div className="skills">
             <p>&gt;_ Java Spring-Boot Developer</p>
             <p>&gt;_ MERN Stack Developer</p>
