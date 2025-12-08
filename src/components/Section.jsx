@@ -8,6 +8,7 @@ const Section = () => {
           <div className="info">
             <h1>Ashay_Kumar</h1>
             <div className="skills">
+              
             <p>&gt;_ Java Spring-Boot Developer</p>
             <p>&gt;_ MERN Stack Developer</p>
             <p>&gt;_ SQL Developer</p>

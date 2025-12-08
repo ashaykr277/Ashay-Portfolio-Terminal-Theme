@@ -61,12 +61,19 @@ i:hover{
 
 
 /** Section */
-section{
+.section{
   border: 2px solid blue;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 150px;
+  gap: 20px;
 }
 .section h1{
   font-size: 70px;
+  text-align: center;
   text-transform:uppercase;
 }
 .section p{
@@ -150,6 +157,17 @@ i:hover{
   border: 1px solid rgb(27, 112, 2);
   color: #00d800;
 }
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 50px; */
+  border: 2px solid orange;
+}
+.skills p{
+  font-weight: 600;
+  font-size: 20px;
+}
 
 /* footer */
 footer{
@@ -201,6 +219,9 @@ footer p{
     text-transform:uppercase;
     text-align: center;
   }
+  .section{
+
+  }
 
 .section p{
   font-size: 15px;
@@ -248,36 +269,18 @@ footer p{
 
   background-color: black;
   color: white;
-  
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 25px;
-  padding-left: 20px;
-}
-.contact-btn i{
-  border: 1px solid rgba(255, 255, 255, 0.5);
-}
-.icons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 10px;
-  gap: 20px;
-}
-i{
-  border: 1px solid rgba(0, 0, 0, 0.233);
-  border-radius: 5px;
-  /* margin: 10px 10px; */
-  padding: 10px;
-  font-size: 22px;
-}
-i:hover{
-  cursor: pointer;
-  border: 1px solid rgb(27, 112, 2);
-  color: #00d800;
-}
+  }
+  .skills{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
 
+  .skills p{
+  font-weight: 900;
+  font-size: 15px;
+}
 
 
 
