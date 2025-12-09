@@ -41,8 +41,6 @@ header{
 
 
 
-
-
 .icons{
   display: flex;
   align-items: center;
@@ -208,6 +206,8 @@ footer p{
      }
      
 
+    
+
     i{
     border: 1px solid rgba(0, 0, 0, 0.233);
     padding: 6px;
@@ -218,30 +218,6 @@ footer p{
     border: 1px solid rgb(27, 112, 2);
     color: #00d800;
     }
-
-    .section h1{
-    font-size: 50px;
-    text-transform:uppercase;
-    text-align: center;
-  }
-  .section{
-
-  }
-
-.section p{
-  font-size: 15px;
-  font-weight: 200;
-  color: rgb(73, 73, 73);
-  margin-top: 10px;
-  line-height: 20px;
-  
-}
-.section span{
-  color: rgb(0, 201, 0);
-  background-color: black;
-  font-weight: 600;
-  padding: 5px 10px;
-} 
 
 .btn1{
   font-family: "JetBrains Mono", monospace;
