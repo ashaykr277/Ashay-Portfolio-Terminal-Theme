@@ -255,11 +255,11 @@ footer p{
     text-align: center;
   }
 .section{
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .section .info{
-  height: 100vh;
+  height: 90vh;
     width: 100%;
   padding: 0px;
 }
