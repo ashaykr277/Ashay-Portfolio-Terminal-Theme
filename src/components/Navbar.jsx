@@ -14,6 +14,7 @@ const Navbar = () => {
             </ul>
         </nav>
         <button className='btn'>Hire Me</button>
+        <i class='bx bxs-terminal'></i>
 
     </header>
     </>

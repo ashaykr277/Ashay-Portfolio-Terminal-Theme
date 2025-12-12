@@ -10,6 +10,9 @@ header{
    top: 0;
    border-bottom: 1px solid black;
 }
+header .bxs-terminal{
+  display: none;
+  }
 
 .nav-elements{
   display: flex;
@@ -230,6 +233,20 @@ footer p{
   header nav{
     display: none;
   }
+  header .bxs-terminal{
+    display: block;
+    border: none;
+    padding: 0px;
+    padding-left: 30px;
+    font-size: 40px;
+  }
+  
+  header .btn{
+    display: none;
+  }
+
+
+  
   section h1{
     font-size: 55px;
   }
