@@ -9,6 +9,7 @@ header{
    position: sticky;
    top: 0;
    border-bottom: 1px solid black;
+   z-index: 10;
 }
 header .bxs-terminal{
   display: none;
@@ -149,7 +150,8 @@ section{
   /* border: 2px solid #00d800; */
 
 }
-section h1{
+section h1 {
+  display: flex;
   font-size: 70px;
   text-align: center;
   text-transform: uppercase;
@@ -178,12 +180,13 @@ section .info{
     padding: 0px 350px;
     border-bottom: 2px solid rgb(0, 201, 0);
 }
-section span {
+section .terminal {
   color: rgb(0, 201, 0);
   background-color: black;
   font-weight: 600;
   padding: 5px 10px;
 }
+
 
 
 .skills{

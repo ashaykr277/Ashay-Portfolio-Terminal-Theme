@@ -198,10 +198,10 @@ export default function DecryptedText({
           return (
             <span key={index} className={isRevealedOrDone ? className : encryptedClassName}>
               {char}
-            </span>
+            </span> 
           );
         })}
-      </span>
+      </span> 
     </motion.span>
   );
 }

@@ -2,13 +2,25 @@ import React from 'react'
 import '../About.css'
 import './skill box/skill-box.css'
 import SkillBox from './skill box/SkillBox'
+import ScrollFloat from '../../ReactBits/ScrollFloat'
 
 const About = () => {
     return (
         <>
             <section className='about-section'>
                 <i class='bx bxs-chevron-down bounce'></i>
-                <h2 className="heading">About.txt</h2>
+                <h2 className="heading">
+
+                    <ScrollFloat
+                        animationDuration={1}
+                        ease='back.inOut(2)'
+                        scrollStart='center bottom+=50%'
+                        scrollEnd='bottom bottom-=40%'
+                        stagger={0.03}
+                    >
+                        About.txt
+                    </ScrollFloat>
+                </h2>
                 <img src="./Ashay-transparent.png" alt="" />
                 <p>I am a passionate software developer with a love for creating digital experience that matter. My journey in tech started with curiosity and has evolved into a commitment to building  softwares and solutions that bridges creativity and functionality.</p>
                 <div className="skills-box">

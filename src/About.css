@@ -19,17 +19,25 @@
 
 .bxs-chevron-down {
     z-index: -1;
-  display: inline-block;
-  animation: bounce 1.2s infinite ease-in-out;
+    display: inline-block;
+    animation: bounce 1.2s infinite ease-in-out;
+}
+.details p{
+    font-size: 15px;
+    font-weight: 100;
 }
 
 @keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(15px); /* bounce distance */
-  }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+        /* bounce distance */
+    }
 }
 
 section .heading {
@@ -66,10 +74,17 @@ section .heading {
 .details span {
     background: none;
     font-weight: 200;
+    color: rgb(0, 201, 0);
+    background-color: black;
+    font-weight: 400;     
+    padding: 5px 10px;
+
 }
+
 
 .details p {
     color: white;
+    
 }
 
 
@@ -89,7 +104,7 @@ section .heading {
         flex-direction: column;
     }
 
-    
+
     .status {
         background-color: black;
         width: 123%;

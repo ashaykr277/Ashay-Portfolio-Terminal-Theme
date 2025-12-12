@@ -1,12 +1,23 @@
 import '../About.css'
 import './EduBox/Edubox.css'
 import Edubox from './EduBox/Edubox'
+import ScrollFloat from '../../ReactBits/ScrollFloat'
 const Education = () => {
     return (
         <>
         <section className='about-section'>
             <i class='bx bxs-chevron-down'></i>
-            <h2 className="heading">Education.log</h2>
+            <h2 className="heading">
+                <ScrollFloat
+                        animationDuration={1}
+                        ease='back.inOut(2)'
+                        scrollStart='center bottom+=50%'
+                        scrollEnd='bottom bottom-=40%'
+                        stagger={0.03}
+                    >
+                        Education.log
+                    </ScrollFloat>
+            </h2>
             <p>My Professional Journey through the tech industry, working with innovative companies and delivering impactful solutions.</p>
             
             <div className="skills-box">
