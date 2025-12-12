@@ -180,6 +180,12 @@ section .info{
     padding: 0px 350px;
     border-bottom: 2px solid rgb(0, 201, 0);
 }
+.info .animatedText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: grey; */
+}
 section .terminal {
   color: rgb(0, 201, 0);
   background-color: black;

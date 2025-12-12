@@ -31,7 +31,24 @@ const Section = () => {
 
 
         <div className="info">
-          <h1><DecryptedText text="ASHAY_KUMAR" style={{ display: 'block' }} />
+          <h1>
+            {/* <DecryptedText text="ASHAY_KUMAR" style={{ display: 'block' }} /> */}
+            <div className="animatedText">
+              <DecryptedText
+                text="ASHAY_"
+                maxIterations={50}
+                animateOn="view"
+                revealDirection="center"
+              />
+              <div >
+                <DecryptedText
+                  text="KUMAR"
+                  maxIterations={100}
+                  animateOn="view"
+                  revealDirection="center"
+                />
+              </div>
+            </div>
           </h1>
           <div className="skills">
 

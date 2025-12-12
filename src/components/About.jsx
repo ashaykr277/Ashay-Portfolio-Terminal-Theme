@@ -3,6 +3,7 @@ import '../About.css'
 import './skill box/skill-box.css'
 import SkillBox from './skill box/SkillBox'
 import ScrollFloat from '../../ReactBits/ScrollFloat'
+import TextType from '../../ReactBits/TextType'
 
 const About = () => {
     return (
@@ -55,8 +56,25 @@ const About = () => {
                 </div>
                 <div className="status">
                     <div className="details">
-                        <h3> &gt; CURRENT STATUS : <span>Available for Projects / Immediate joiner...</span></h3>
-                        <p>Ready to collaborate on your next big idea</p>
+                        <h3> &gt; CURRENT STATUS : <span>Available for <TextType
+                            text={["Projects", "Collaborations", "Work / Immediate Joiner...",]}
+                            style={{fontWeight:100}}
+                            typingSpeed={50}
+                            pauseDuration={2000}
+                            showCursor={true}
+                            cursorCharacter="_"
+                        /></span></h3>
+
+
+                        
+                        <p><TextType
+                            text={["Ready to collaborate on your next big idea", "Hire me for awesome projects", "Happy coding!"]}
+                            style={{fontWeight:200}}
+                            typingSpeed={100}
+                            pauseDuration={1500}
+                            showCursor={true}
+                            cursorCharacter="_"
+                        /></p>
                     </div>
                 </div>
             </section>
