@@ -1,5 +1,5 @@
 import '../About.css'
-import './EduBox/Edubox'
+import './EduBox/Edubox.css'
 import Edubox from './EduBox/Edubox'
 const Education = () => {
     return (
@@ -13,14 +13,14 @@ const Education = () => {
                 <Edubox skill="National Institute of Science and Technology(NIST)"
                     icon="bx bxs-graduation"
                     degree="Bachelor of Technology"
-                    branch="> : ~/Computer Science Engineering"
+                    branch="> : ~\Computer Science Engineering"
                     yr1="2021" yr2="2025"
                     loc="Brahmapur, Odisha" />
 
                 <Edubox skill="Sri Chaitanya Techno School"
                     icon="bx bxs-school"
                     degree="Intermediate"
-                    branch="> : ~/Physics Chemistry Maths"
+                    branch="> : ~\Physics Chemistry Maths"
                     yr1="2018" yr2="2020"
                     loc="Visakhapatnam, Andhra Pradesh" />
 
@@ -28,7 +28,7 @@ const Education = () => {
                     icon="bx bx-bus-school"
                   
                     degree="Matriculation"
-                    branch="> : ~/CBSE Board"
+                    branch="> : ~\CBSE Board"
                     yr1="2017" yr2="2018"
                     loc="Kolkata, West Bengal" />
             </div>

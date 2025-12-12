@@ -21,6 +21,7 @@
     height: 120px;
     width: 100%;
     border-bottom: 1px solid black;
+    border-bottom-style:dashed;
 }
 
 .edu-box .bx{
@@ -31,7 +32,10 @@
 .edu-box .institute{
     font-weight: 700;
     font-size: 20px;
-
+}
+.degree{
+    color: blue;
+    margin-bottom: 5px;
 }
 .edu-box-details{
     margin: 20px 0px;
@@ -105,6 +109,7 @@
 }
 .edu-box .top{
     height: 150px;
+    padding-bottom: 5px;
 }
 .down{
 font-size: 12px;
