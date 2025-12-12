@@ -29,18 +29,9 @@ const Section = () => {
 
 
 
-        
+
         <div className="info">
           <h1><DecryptedText text="ASHAY_KUMAR" style={{ display: 'block' }} />
-            <DecryptedText
-              text=".EXE"
-              speed={100}
-              maxIterations={20}
-              characters="JAVA123JSX!?"
-              className="revealed"
-              parentClassName="all-letters"
-              encryptedClassName="encrypted"
-            />
           </h1>
           <div className="skills">
 
