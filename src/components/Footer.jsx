@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Home.css'
 const Footer = () => {
     return (
         <>
@@ -7,7 +7,7 @@ const Footer = () => {
                 <center>
 
                     <div>
-                        <div className="icons">
+                        <div className="icons" id="footer-icon">
                             <i class='bx bxl-linkedin-square'></i>
                             <i class='bx bxl-github' ></i>
                             <i class='bx bx-envelope' ></i>

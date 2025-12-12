@@ -89,6 +89,14 @@ header .bxs-terminal{
 
 
 /**icons */
+#footer-icon i{
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  gap: 20px;
+}
 .icons{
   display: flex;
   align-items: center;
@@ -140,6 +148,11 @@ i:hover{
   border: 1px solid rgb(27, 112, 2);
   color: #00d800;
 }
+#footer-icon i:hover{
+  cursor: pointer;
+  border: 1px solid rgb(27, 112, 2);
+  color: #00d800;
+}
 
 /*! ---icons--- */
 
@@ -175,7 +188,7 @@ section .info{
   gap: 60px;
   text-align: center;
   /* background-color: grey; */
-  height: 92vh;
+  height: 100vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.050) 0.5px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.050) 1px, transparent 1px);
   background-size: 20px 20px;
     padding: 0px 350px;
