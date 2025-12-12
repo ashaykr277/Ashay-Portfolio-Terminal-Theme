@@ -84,7 +84,7 @@ const Section = () => {
                             pauseDuration={5500}
                             showCursor={true}
                             cursorCharacter="_"
-                        /></span>. I am a software Engineer, a true, definition of a tech addict and optimism. 
+                        /></span>. I am a software Engineer, a true, definition of a tech addict. 
                         <br />
                         My goal is to craft seamless digital experiences that not only meet but exceed client expectations.</p>
           <div className='buttons'>
