@@ -4,13 +4,13 @@ import FuzzyText from '../../ReactBits/FuzzyText'
 import DecryptedText from '../../ReactBits/DecryptedText'
 import LetterGlitch from '../../ReactBits/LetterGlitch'
 import Squares from '../../ReactBits/Squares';
-
+import TextType from '../../ReactBits/TextType'
 
 
 const Section = () => {
   return (
     <>
-      <section>
+      <section id="home-section">
         {/* <LetterGlitch
           glitchSpeed={50}
           centerVignette={true}
@@ -78,7 +78,15 @@ const Section = () => {
             >&gt;_ UI/UX Designer...</FuzzyText>
             </p>
           </div>
-          <p>Hi my name is <span className="terminal">Ashay Kumar</span>. I am a software Engineer, a true, definition of a tech addict and optimism. I strive to bring innovation ideas to life. My goal is to craft seamless digital experiences that not only meet but exceed client expectations.</p>
+          <p>Hi my name is <span className="terminal"><TextType
+                            text={["{ Ashay Kumar }"]}
+                            typingSpeed={70}
+                            pauseDuration={5500}
+                            showCursor={true}
+                            cursorCharacter="_"
+                        /></span>. I am a software Engineer, a true, definition of a tech addict and optimism. 
+                        <br />
+                        My goal is to craft seamless digital experiences that not only meet but exceed client expectations.</p>
           <div className='buttons'>
             <button className='btn1 contact-btn'>Contact Me<i class='bx bx-paper-plane' ></i></button>
             <button className='btn1 resume-btn'>Download Resume <i class='bx bx-chevrons-down'></i></button>

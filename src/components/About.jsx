@@ -8,7 +8,7 @@ import TextType from '../../ReactBits/TextType'
 const About = () => {
     return (
         <>
-            <section className='about-section'>
+            <section className='about-section' id="about-section">
                 <i class='bx bxs-chevron-down bounce'></i>
                 <h2 className="heading">
 
@@ -59,7 +59,7 @@ const About = () => {
                         <h3> &gt; CURRENT STATUS : <span>Available for <TextType
                             text={["Projects", "Collaborations", "Work / Immediate Joiner...",]}
                             style={{fontWeight:100}}
-                            typingSpeed={50}
+                            typingSpeed={80}
                             pauseDuration={2000}
                             showCursor={true}
                             cursorCharacter="_"
@@ -69,10 +69,9 @@ const About = () => {
                         
                         <p><TextType
                             text={["Ready to collaborate on your next big idea", "Hire me for awesome projects", "Happy coding!"]}
-                            style={{fontWeight:200}}
-                            typingSpeed={100}
+                            typingSpeed={50}
                             pauseDuration={1500}
-                            showCursor={true}
+                            showCursor={false}
                             cursorCharacter="_"
                         /></p>
                     </div>

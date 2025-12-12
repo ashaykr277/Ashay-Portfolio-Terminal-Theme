@@ -11,7 +11,7 @@ import TextType from '../../ReactBits/TextType';
 const Education = () => {
     return (
         <>
-            <section className='about-section'>
+            <section className='about-section' id="education-section">
                 <i class='bx bxs-chevron-down'></i>
                 <h2 className="heading">
                     <ScrollFloat
@@ -71,9 +71,9 @@ const Education = () => {
                         
                         <p><TextType
                             text={["Continuously learning and evolving with technology...", "Hire me for awesome projects..", ""]}
-                            typingSpeed={90}
+                            typingSpeed={40}
                             pauseDuration={1500}
-                            showCursor={true}
+                            showCursor={false}
                             cursorCharacter="_"
                         /></p>
                     </div>
