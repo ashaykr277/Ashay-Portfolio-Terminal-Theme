@@ -5,6 +5,7 @@ const Home = () => {
     <>
       <section>
         <div className="section">
+          
           <div className="info">
             <h1>Ashay Kumar</h1>
             <div className="skills">
