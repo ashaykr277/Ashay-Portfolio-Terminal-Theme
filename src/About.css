@@ -49,6 +49,7 @@ section .heading {
 }
 
 .details span {
+    background: none;
     font-weight: 200;
 }
 
