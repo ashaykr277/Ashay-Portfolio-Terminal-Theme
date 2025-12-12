@@ -280,11 +280,13 @@ footer p{
 
 
   section .info{
-    height: 900px;
+    /* margin-top: 200px; */
+    height: 100vh;
     justify-content: space-evenly;
       padding: 0px 50px;
       gap: 10px;
   }
+
   .skills{
   flex-direction: column;
     gap: 10px;
@@ -305,14 +307,17 @@ footer p{
 
   /* nav-elements */
   .nav {
+    -webkit-backdrop-filter: blur(12px);
     display: none;
     position: absolute;
-    top: 70px;
-    right: 20px;
-    background: #111;
-    padding: 20px;
-    border-radius: 10px;
+    top: 90px;
+    right: 10px;
+    background: #111111a6;
+    padding: 25px;
+    border-radius: 5px;
     flex-direction: column;
+    z-index: 11;
+    transition: all 0.2s ease;
   }
 
   .nav.open {
@@ -322,7 +327,7 @@ footer p{
   .nav-elements {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
   }
 
   .nav-elements li a {

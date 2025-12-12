@@ -23,6 +23,11 @@ body{
   display: none;
 }
 
-html {
-  scroll-behavior: smooth;
+html.lenis {
+  scroll-behavior: auto !important;
 }
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+

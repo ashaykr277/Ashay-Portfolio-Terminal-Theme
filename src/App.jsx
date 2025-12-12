@@ -1,4 +1,7 @@
 // import './Main.css'
+import { useEffect } from 'react'
+import Lenis from "@studio-freight/lenis";
+
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Section from './components/Section'
@@ -12,6 +15,24 @@ import ScrollFloat from '../ReactBits/ScrollFloat';
 
 
 function App() {
+
+    useEffect(() => {
+    window.history.scrollRestoration = "manual";
+
+    const lenis = new Lenis({
+      duration: 1.2,
+      smooth: true,
+      easing: (t) => t * (2 - t),
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
+
   return (
     <>
       <Navbar />

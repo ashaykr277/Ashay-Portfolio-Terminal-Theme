@@ -63,6 +63,30 @@ const Navbar = () => {
                 activeClass="active"
                 onClick={() => setMenuOpen(false)}
               >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="contact-section"
+                smooth={true}
+                duration={800}
+                spy={true}
+                activeClass="active"
+                onClick={() => setMenuOpen(false)}
+              >
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="contact-section"
+                smooth={true}
+                duration={800}
+                spy={true}
+                activeClass="active"
+                onClick={() => setMenuOpen(false)}
+              >
                 Contact
               </Link>
             </li>
