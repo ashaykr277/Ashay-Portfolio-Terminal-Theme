@@ -6,7 +6,7 @@
     justify-content: space-around;
     gap: 50px;
     text-align: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .about-section i {

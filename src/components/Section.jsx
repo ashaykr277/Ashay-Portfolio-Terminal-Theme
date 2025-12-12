@@ -25,7 +25,7 @@ const Section = () => {
               <i class='bx bxl-github' ></i>
             </a>
 
-            <a href="mailto:ashaykr277@gmail.com">
+            <a href="mailto:ashaykr277@gmail.com?subject=Hello&body=I want to hire you">
               <i class='bx bx-envelope'></i>
             </a>
           </div>
