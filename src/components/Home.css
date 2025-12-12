@@ -263,8 +263,8 @@ footer p{
   header .bxs-terminal{
     display: block;
     border: none;
-    padding: 0px;
-    padding-left: 30px;
+    padding: 5px;
+    margin-left: 20px;
     font-size: 40px;
   }
   
@@ -300,6 +300,45 @@ footer p{
   }
   .buttons .btn1{
     width: 300px;
+  }
+
+
+  /* nav-elements */
+  .nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-elements li a {
+    color: white;
+    font-size: 18px;
+  }
+
+  .menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  /* Hide desktop button in mobile if needed */
+  .btn {
+    display: none;
   }
 
 }

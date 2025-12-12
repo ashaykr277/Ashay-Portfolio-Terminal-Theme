@@ -1,6 +1,10 @@
-import { Link } from 'react-scroll';
-import '../App.css'
+import { useState } from "react";
+import { Link } from "react-scroll";
+import "../App.css";
+
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <header>
@@ -8,9 +12,9 @@ const Navbar = () => {
           <h1>ASHAY_KUMAR.EXE</h1>
         </div>
 
-        <nav>
+        {/* NAV MENU */}
+        <nav className={menuOpen ? "nav open" : "nav"}>
           <ul className="nav-elements">
-
             <li>
               <Link
                 to="home-section"
@@ -18,6 +22,7 @@ const Navbar = () => {
                 duration={800}
                 spy={true}
                 activeClass="active"
+                onClick={() => setMenuOpen(false)}
               >
                 Home
               </Link>
@@ -30,6 +35,7 @@ const Navbar = () => {
                 duration={800}
                 spy={true}
                 activeClass="active"
+                onClick={() => setMenuOpen(false)}
               >
                 About
               </Link>
@@ -42,6 +48,7 @@ const Navbar = () => {
                 duration={800}
                 spy={true}
                 activeClass="active"
+                onClick={() => setMenuOpen(false)}
               >
                 Education
               </Link>
@@ -54,16 +61,22 @@ const Navbar = () => {
                 duration={800}
                 spy={true}
                 activeClass="active"
+                onClick={() => setMenuOpen(false)}
               >
                 Contact
               </Link>
             </li>
-
           </ul>
         </nav>
 
+        {/* BUTTON FOR DESKTOP */}
         <button className="btn">Hire Me</button>
-        <i className='bx bxs-terminal'></i>
+
+        {/* TERMINAL ICON FOR MOBILE */}
+        <i
+          className="bx bxs-terminal menu-icon"
+          onClick={() => setMenuOpen(!menuOpen)}
+        ></i>
       </header>
     </>
   );
