@@ -67,7 +67,7 @@ const ScrollFloat = ({
 
   return (
     <h2 ref={containerRef} className={`scroll-float ${containerClassName}`}>
-      <h6 className={`scroll-float-text ${textClassName}`} style={{fontSize:"70px"}}>{splitText}</h6>
+      <h6 className={`scroll-float-text ${textClassName}`} style={{fontSize:"60px"}}>{splitText}</h6>
     </h2>
   );
 };
