@@ -7,8 +7,9 @@ const About = () => {
     return (
         <>
             <section className='about-section'>
-                <i class='bx bxs-chevron-down'></i>
+                <i class='bx bxs-chevron-down bounce'></i>
                 <h2 className="heading">About.txt</h2>
+                <img src="./Ashay-transparent.png" alt="" />
                 <p>I am a passionate software developer with a love for creating digital experience that matter. My journey in tech started with curiosity and has evolved into a commitment to building  softwares and solutions that bridges creativity and functionality.</p>
                 <div className="skills-box">
 

@@ -17,6 +17,21 @@
     font-size: 18px;
 }
 
+.bxs-chevron-down {
+    z-index: -1;
+  display: inline-block;
+  animation: bounce 1.2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px); /* bounce distance */
+  }
+}
+
 section .heading {
     display: inline;
     font-size: 40px;
@@ -66,10 +81,15 @@ section .heading {
         text-align: center;
     }
 
+    .about-section img {
+        width: 400px;
+    }
+
     .skills-box {
         flex-direction: column;
     }
 
+    
     .status {
         background-color: black;
         width: 120%;
@@ -79,7 +99,8 @@ section .heading {
         padding: 20px 25px;
         text-align: start;
     }
-    .status .details p{
+
+    .status .details p {
         font-size: 12px;
     }
 
