@@ -95,6 +95,9 @@ header .bxs-terminal{
   margin: 10px 10px;
   gap: 20px;
 }
+.icons .bx{
+  color: black;
+}
 i{
   border: 1px solid rgba(0, 0, 0, 0.233);
   border-radius: 5px;
@@ -102,10 +105,11 @@ i{
   padding: 10px;
   font-size: 22px;
 }
-i:hover{
+.bx:hover{
   cursor: pointer;
   border: 1px solid rgb(27, 112, 2);
   color: #00d800;
+  text-shadow: 0 0 50px rgba(0, 128, 0, 0.185);
 }
 .skills{
   display: flex;

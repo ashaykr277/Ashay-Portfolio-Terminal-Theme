@@ -20,7 +20,7 @@ const About = () => {
 
                     <SkillBox skill="Backend"
                         icon="bx bx-code-curly"
-                        skl1="Node.js" skl2="Express.js" skl3="Spring" skl4="Spring-boot"
+                        skl1="Node.js" skl2="Express.js" skl3="JPA" skl4="Spring"
                         desc="Scalable server side applications and APIs" />
 
                     <SkillBox skill="Database" icon="bx bx-data"
@@ -34,12 +34,12 @@ const About = () => {
 
                     <SkillBox skill="Deployment" icon="bx bx-globe"
                         skl1="AWS" skl2="Git/GitHub" skl3="Docker" skl4="Vercel"
-                        desc="Automated Deployment and cloud infrastructure" />
+                        desc="Deployment and cloud infrastructure" />
 
                     <SkillBox skill="UI/UX"
                         icon="bx bx-paint"
                         skl1="Adobe XD" skl2="Figma" skl3="Photoshop" skl4=""
-                        desc="Automated Deployment and cloud infrastructure " />
+                        desc="Interactive user interface design" />
                 </div>
                 <div className="status">
                     <div className="details">
