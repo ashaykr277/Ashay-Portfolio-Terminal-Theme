@@ -1,0 +1,115 @@
+.edu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    /* width: 32%; */
+    height: 300px;
+    width: 450px;
+}
+
+.edu-box .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    gap: 5px;
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.edu-box .bx{
+    padding: 0px;
+    border: none;
+    font-size: 50px;
+}
+.edu-box .institute{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.edu-box-details{
+    margin: 20px 0px;
+    font-size: 12px;
+    /* border-top: 2px solid black; */
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    align-items: start;
+}
+.down{
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.down .year .bx{
+    padding-right: 10px;
+}
+.down .loc .bx{
+    padding-right: 10px;
+}
+.edu-details .bx{
+    font-size: 20px;
+    padding: 0px;
+}
+.edu-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px 0px;
+    /* margin: 20px 0px; */
+    /* border: 1px solid grey; */
+}
+.edu-details .branch{
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    padding: 2px 5px;
+    color: rgb(0, 201, 0);
+}
+.degree{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/*? ---Responsive--- */
+@media (max-width: 480px) {
+    .edu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    /* padding: 20px; */
+    width: 100%;
+   }
+   .edu-box .institute{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.edu-box .top{
+    height: 150px;
+}
+.down{
+font-size: 12px;
+gap: 5px;
+}
+
+
+}

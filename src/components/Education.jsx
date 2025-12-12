@@ -1,0 +1,48 @@
+import '../About.css'
+import './EduBox/Edubox'
+import Edubox from './EduBox/Edubox'
+const Education = () => {
+    return (
+        <>
+        <section className='about-section'>
+            <i class='bx bxs-chevron-down'></i>
+            <h2 className="heading">Education.log</h2>
+            <p>My Professional Journey through the tech industry, working with innovative companies and delivering impactful solutions.</p>
+            
+            <div className="skills-box">
+                <Edubox skill="National Institute of Science and Technology(NIST)"
+                    icon="bx bxs-graduation"
+                    degree="Bachelor of Technology"
+                    branch="> : ~/Computer Science Engineering"
+                    yr1="2021" yr2="2025"
+                    loc="Brahmapur, Odisha" />
+
+                <Edubox skill="Sri Chaitanya Techno School"
+                    icon="bx bxs-school"
+                    degree="Intermediate"
+                    branch="> : ~/Physics Chemistry Maths"
+                    yr1="2018" yr2="2020"
+                    loc="Visakhapatnam, Andhra Pradesh" />
+
+                <Edubox skill="B.D.M International School"
+                    icon="bx bx-bus-school"
+                  
+                    degree="Matriculation"
+                    branch="> : ~/CBSE Board"
+                    yr1="2017" yr2="2018"
+                    loc="Kolkata, West Bengal" />
+            </div>
+            <div className="status">
+                    <div className="details">
+                        <h3> &gt; TOTAL EXPERIENCE : <span>0 Years : 6 Months</span></h3>
+                        <p>:::---------------------------------------:::</p>
+                        <p>Continuously learning and evolving with technology...</p>
+                    </div>
+                </div>
+        </section>
+        
+        </>
+    )
+}
+
+export default Education
