@@ -140,7 +140,7 @@ i:hover{
 
 /** Section */
 section{
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
   /* border: 2px solid #00d800; */
 
@@ -154,8 +154,8 @@ section h1{
 section p{
   font-size: 15px;
   font-weight: 200;
-  /* color: rgb(73, 73, 73); */
-  color: blue;
+  color: rgb(73, 73, 73);
+  /* color: blue; */
   margin-top: 10px;
   line-height: 30px;
 

@@ -1,0 +1,52 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 32%;
+}
+.box .bx{
+    border: none;
+    font-size: 50px;
+    font-weight: 100;
+}
+.head{
+    font-size: 24px;
+}
+.skill-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.skill-set p{
+    font-weight: 500;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    padding: 0px 12px;
+    border-radius: 3px;    
+}
+.box p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/*? ---Responsive--- */
+@media (max-width: 480px) {
+    .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+   }
+
+
+
+}
