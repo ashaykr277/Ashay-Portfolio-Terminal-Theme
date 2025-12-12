@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/Home.css'
+import FuzzyText from '../../ReactBits/FuzzyText'
 const Section = () => {
   return (
     <>
@@ -7,10 +8,36 @@ const Section = () => {
         <div className="info">
           <h1>Ashay_Kumar</h1>
           <div className="skills">
-            <p>&gt;_ Java Spring-Boot Developer...</p>
-            <p>&gt;_ MERN Stack Developer...</p>
+            
+            <p><FuzzyText
+              baseIntensity={0.1}
+              hoverIntensity={0.2}
+              enableHover={true}
+            >&gt;_ Java Spring-Boot Developer...</FuzzyText>
+              </p>
+
+            <p><FuzzyText
+              baseIntensity={0.1}
+              hoverIntensity={0.28}
+              enableHover={true}
+            >&gt;_ MERN Stack Developer...</FuzzyText>
+              </p>
+            <p><FuzzyText
+              baseIntensity={0.1}
+              hoverIntensity={0.2}
+              enableHover={true}
+            >&gt;_ SQL Developer...</FuzzyText>
+              </p>
+            <p><FuzzyText
+              baseIntensity={0.1}
+              hoverIntensity={0.35}
+              enableHover={true}
+            >&gt;_ UI/UX Designer...</FuzzyText>
+              </p>
+              
+            {/* <p>&gt;_ MERN Stack Developer...</p>
             <p>&gt;_ SQL Developer...</p>
-            <p>&gt;_ UI/UX Designer...</p>
+            <p>&gt;_ UI/UX Designer...</p> */}
           </div>
           <p>Hi my name is <span>Ashay Kumar</span>. I am a software Engineer, a true, definition of a tech addict and optimism. I strive to bring innovation ideas to life. My goal is to craft seamless digital experiences that not only meet but exceed client expectations.</p>
           <div className='buttons'>

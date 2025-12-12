@@ -5,15 +5,18 @@ import Section from './components/Section'
 import About from './components/About'
 import Education from './components/Education'
 
+
 function App() {
   return (
     <>
-    <Navbar />
-    <Section />
-    <About />
-    <Education />
-    <Footer />
-      
+      <Navbar />
+      <Section />
+      <About />
+      <Education />
+      <Footer />
+
+
+
     </>
   )
 }
