@@ -139,7 +139,7 @@ i:hover{
 section{
   height: 100vh;
   width: 100vw;
-  border: 2px solid #00d800;
+  /* border: 2px solid #00d800; */
 
 }
 section h1{
@@ -151,7 +151,8 @@ section h1{
 section p{
   font-size: 15px;
   font-weight: 200;
-  color: rgb(73, 73, 73);
+  /* color: rgb(73, 73, 73); */
+  color: blue;
   margin-top: 10px;
   line-height: 30px;
 
@@ -162,11 +163,13 @@ section .info{
   align-items: center;
   justify-content: center;
   gap: 60px;
+  text-align: center;
   /* background-color: grey; */
   height: 90vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.050) 0.5px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.050) 1px, transparent 1px);
   background-size: 20px 20px;
     padding: 0px 350px;
+    border-bottom: 2px solid rgb(0, 201, 0);
 }
 section span {
   color: rgb(0, 201, 0);
@@ -177,11 +180,14 @@ section span {
 
 
 .skills{
+    text-align: start;
     background-color: #1E1E1E;
     color: #40BBC7;
     padding: 10px 20px;
     border-radius: 5px;
     border: 2px solid #40BBC7;
+    text-shadow:2px 2px 20px #40bcc781 ;
+    box-shadow: 2px 20px 20px rgba(0, 0, 0, 0.171);
 }
 .skills p{
     font-size: 18px;
@@ -219,6 +225,7 @@ footer p{
 @media (max-width: 480px) {
   header{
     width: 100vw;
+    height: 80px;
   }
   header nav{
     display: none;
@@ -229,7 +236,7 @@ footer p{
 
 
   section .info{
-    height: 88vh;
+    height: 100vh;
     justify-content: space-evenly;
       padding: 0px 50px;
       gap: 10px;
