@@ -28,7 +28,6 @@ const Projects = () => {
                 <div className="skills-box">
                     <Projbox 
                         src="https://devnetlimited.com/wp-content/uploads/2024/01/Online-Proctored-Exam-Solution.png"
-                        // src="https://devnetlimited.com/online-proctoring.jpg/"
                         title="AI Proctored Examination System"
                         desc="it is an advanced online testing platform designed to ensure the integrity and fairness of remote examinations through real-time AI monitoring. with face recognition, object detection, to prevent cheating and maintain exam security without human invigilators."
                         tech1="Python"

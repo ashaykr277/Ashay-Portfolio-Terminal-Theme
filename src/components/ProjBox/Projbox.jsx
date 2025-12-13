@@ -18,12 +18,12 @@ const Projbox = (props) => {
                 </div>
                 <div className="btns">
                     <div className="btn2 code">
-                        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/ashaykr277/Ai-Proctored-Major-Project" target="_blank" rel="noopener noreferrer">
                             <i className="bx bxl-github"></i> Code
                         </a>
                     </div>
 
-                    <div className="btn2 Demo"><a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">
+                    <div className="btn2 Demo"><a href="" target="_blank" rel="noopener noreferrer">
                         <i class='bx bx-globe' ></i>Demo
                     </a>
                     </div>
