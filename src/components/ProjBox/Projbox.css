@@ -72,10 +72,7 @@
     color:black;
     border: none;
 }
-a .bxl-github{
-    border:none;
-}
-a .bxl-globe{
+.btn2 a i {
     border:none;
 }
 a .bx:hover{
