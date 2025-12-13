@@ -70,7 +70,7 @@ const Projects = () => {
                     <Projbox 
                         // src="https://img.freepik.com/free-vector/flat-design-online-ticket-illustration_23-2151089479.jpg?t=st=1765656260~exp=1765659860~hmac=84dc1a829df106d1397ee931950b148c74d550f7727695c4fe62f128f908281e&w=740"
                         src="https://img.freepik.com/free-vector/tiny-man-buying-ticket-online-via-laptop-monitor-plane-baggage-flat-vector-illustration-travelling-digital-technology_74855-8621.jpg?t=st=1765656318~exp=1765659918~hmac=833455cb9f29048ee7be161527865b02387a129e09819d76a9db32f687b41d60&w=1480"
-                        title="Employee Management System"
+                        title="Flight Booking System"
                         desc="it is an advanced online testing platform designed to ensure the integrity and fairness of remote examinations through real-time AI monitoring. with face recognition, object detection, to prevent cheating and maintain exam security without human invigilators."
                         tech1="Java"
                         tech2="Postgresql"
