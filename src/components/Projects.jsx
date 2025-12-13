@@ -42,7 +42,7 @@ const Projects = () => {
                         desc="it is an AI-powered application designed to identify and verify individuals based on their facial features. It uses computer vision and deep learning techniques to accurately detect, recognize, and match faces from live camera feeds or stored images."
                         tech1="Python"
                         tech2="OpenCV"
-                        tech3=""
+                        tech3="Dlib"
                         href1="https://github.com/ashaykr277/Face-Recognition-System"
                         href2=""
                     />
