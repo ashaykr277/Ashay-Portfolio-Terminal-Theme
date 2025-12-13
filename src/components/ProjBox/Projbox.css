@@ -7,7 +7,7 @@
 }
 
 .proj-container .top {
-    border: 2px solid blue;
+    border: 1px solid blue;
     height: 250px;
     background-size: contain;
     background-position: center;
@@ -52,15 +52,73 @@
 }
 
 .btn2 {
-    background-color: grey;
+    /* background-color: grey; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     border: 1px solid black;
     margin: 0 2px;
-    height: 30px;
+    height: 40px;
+    color:black;
 }
+.btn2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.btn2 a{
+    color:black;
+    border: none;
+}
+a i{
+    border:none;
+}
+a .bx:hover{
+    border: none;
+}
+
+/*  */
+
+
+.btn2 {
+  border: 1px solid #000;
+  transition: all 0.3s ease;
+}
+
+.btn2 a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* icon default */
+.btn2 a .bx {
+  font-size: 18px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.btn2:hover {
+  background-color: #000;
+}
+
+.btn2:hover a {
+  color: #fff;
+}
+
+.btn2:hover a .bx {
+  color: #fff;
+}
+/*  */
+
 
 .down .btns {
     /* border: 2px solid green; */
@@ -68,6 +126,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 10px;
+    color: black;
 }
 
 

@@ -17,8 +17,16 @@ const Projbox = (props) => {
                     <p>{props.tech3}</p>
                 </div>
                 <div className="btns">
-                    <div className="btn2 code">Code</div>
-                    <div className="btn2 Demo">Demo</div>
+                    <div className="btn2 code">
+                        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">
+                            <i className="bx bxl-github"></i> Code
+                        </a>
+                    </div>
+
+                    <div className="btn2 Demo"><a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bx-globe' ></i>Demo
+                    </a>
+                    </div>
                 </div>
             </div>
         </div>
