@@ -78,38 +78,19 @@ const Projects = () => {
                         href1=""
                         href2=""
                     />
+                    <Projbox 
+                        src="https://img.freepik.com/premium-vector/educational-self-development-concept-illustration_1107902-9415.jpg?w=1480"
+                        title="Student Management System"
+                        desc="it is an advanced online testing platform designed to ensure the integrity and fairness of remote examinations through real-time AI monitoring. with face recognition, object detection, to prevent cheating and maintain exam security without human invigilators."
+                        tech1="Java"
+                        tech2="Postgresql"
+                        tech3="Spring-boot"
+                        href1=""
+                        href2=""
+                    />
                     
                     
                     
-                </div>
-                <div className="status">
-                    <div className="details">
-
-                        <h3> &gt; TOTAL EXPERIENCE : <span><CountUp
-                            from={10}
-                            to={0}
-                            separator=","
-                            direction="up"
-                            duration={1}
-                            className="count-up-text"
-                        /> Years : <CountUp
-                                from={20}
-                                to={6}
-                                separator=","
-                                direction="up"
-                                duration={1}
-                                className="count-up-text"
-                            /> Months</span></h3>
-                        <p>:::---------------------------------------:::</p>
-
-                        <p><TextType
-                            text={["Continuously learning and evolving with technology...", "Hire me for awesome projects..", ""]}
-                            typingSpeed={40}
-                            pauseDuration={1500}
-                            showCursor={false}
-                            cursorCharacter="_"
-                        /></p>
-                    </div>
                 </div>
             </section>
 
