@@ -56,7 +56,7 @@ const Navbar = () => {
 
             <li>
               <Link
-                to="contact-section"
+                to="projects-section"
                 smooth={true}
                 duration={800}
                 spy={true}

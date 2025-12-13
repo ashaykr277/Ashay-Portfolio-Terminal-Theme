@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Section from './components/Section'
 import About from './components/About'
 import Education from './components/Education'
+import Projects from './components/Projects';
 // import ScrambledText from '../ReactBits/ScrambledText';
 // import DotGrid from '../ReactBits/DotGrid';
 // import LetterGlitch from '../ReactBits/LetterGlitch';
@@ -52,6 +53,7 @@ function App() {
       <Section />
       <About />
       <Education />
+      <Projects />
       <Footer />
 
 
