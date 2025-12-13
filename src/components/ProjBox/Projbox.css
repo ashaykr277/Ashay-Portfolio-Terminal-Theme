@@ -72,7 +72,10 @@
     color:black;
     border: none;
 }
-a i{
+a .bxl-github{
+    border:none;
+}
+a .bxl-globe{
     border:none;
 }
 a .bx:hover{
