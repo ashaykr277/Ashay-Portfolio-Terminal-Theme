@@ -8,6 +8,7 @@ import Section from './components/Section'
 import About from './components/About'
 import Education from './components/Education'
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 // import ScrambledText from '../ReactBits/ScrambledText';
 // import DotGrid from '../ReactBits/DotGrid';
 // import LetterGlitch from '../ReactBits/LetterGlitch';
@@ -54,6 +55,7 @@ function App() {
       <About />
       <Education />
       <Projects />
+      <Contact />
       <Footer />
 
 
