@@ -53,9 +53,6 @@ const Contact = () => {
                         <div className="contact-info">
                             <div className="info-block">
                                 <h3>Chat with us</h3>
-                                <p>💬 Start a live chat</p>
-                                <p>✉ Shoot us an email</p>
-                                <p>✖ Message us on X</p>
                             </div>
 
 
