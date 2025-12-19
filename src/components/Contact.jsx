@@ -56,15 +56,6 @@ const Contact = () => {
                             </div>
 
 
-                            <div>
-                                <p>This is a sample text</p>
-                            </div>
-
-
-                            <div className="info-block">
-                                <h3>Visit us</h3>
-                                <p>📍 100 Smith Street, Collingwood VIC 3066</p>
-                            </div>
                         </div>
                     </div>
                 </div>
