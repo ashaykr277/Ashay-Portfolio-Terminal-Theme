@@ -56,10 +56,8 @@ const Contact = () => {
                             </div>
 
 
-                            <div className="info-block">
-                                <h3>Call us</h3>
-                                <p>📞 +1 (555) 000-0000</p>
-                                <span>Mon–Fri from 8am to 5pm</span>
+                            <div>
+                                <p>This is a sample text</p>
                             </div>
 
 
